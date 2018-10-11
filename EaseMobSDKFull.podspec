@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, '6.0'
   spec.requires_arc = true
   spec.frameworks   = 'Foundation', 'CoreLocation', 'Security', 'MobileCoreServices',  'SystemConfiguration', 'CFNetwork', 'CoreGraphics', 'CoreData', 'AVFoundation', 'CoreMedia', 'MediaPlayer', 'OpenGLES'
-  spec.libraries    = 'iconv', 'xml2', 'z', 'resolv', 'stdc++', 'sqlite3', 'stdc++.6.0.9', 'stdc++.6'
+  spec.libraries    = 'iconv', 'xml2', 'z', 'resolv', 'stdc++', 'sqlite3', 'stdc++.6'
   spec.documentation_url = 'http://www.easemob.com/docs/ios/IOSSDKInit/'
   spec.resource     = 'EaseMobSDKFull/resources/EaseMob.bundle'
   spec.vendored_libraries = ['EaseMobSDKFull/lib/libEaseMobClientSDK_armv7.a',
